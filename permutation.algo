@@ -1,0 +1,11 @@
+ALGORITHM Permutation
+VAR
+    var a,b,c:INTEGER
+BEGIN
+    Read(a);
+    Read(b);
+    c:=a;
+    a:=b;
+    b:=c;
+    Write(a,b);
+END
